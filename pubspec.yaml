@@ -1,4 +1,4 @@
-name: mobile_sistem
+name: flutter_application_1
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -23,6 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -30,9 +31,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_map: ^0.8.2
   latlong: ^0.6.1
-  cloud_firestore: ^1.0.3
-  firebase_auth: ^0.6.2+1
-  firebase_core: ^1.0.2
 
 dev_dependencies:
   flutter_test:
