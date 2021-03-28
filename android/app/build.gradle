@@ -34,9 +34,10 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "br.com.lucas.flutter_application_1"
+        applicationId "br.com.lucas.mobile_sistem"
         minSdkVersion 16
         targetSdkVersion 30
+        multiDexEnabled true
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
@@ -56,4 +57,6 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.google.firebase:firebase-core:16.0.1'
 }
+apply plugin: 'com.google.gms.google-services'
